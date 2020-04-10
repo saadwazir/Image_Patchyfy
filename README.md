@@ -21,23 +21,28 @@ here i use MonuSeg Dataset
     - Training
         - GroundTruth
         - TissueImages
-        
+ 
+```
+ 
 open file
 generate_patches/run_patchify.ipynb
 
 
 --------- First Cell ---------
+```
 run first cell is to mount the google drive
-
+```
 
 --------- Second Cell ---------
+```
 second cell is used to generate patches of images and visualize them
 initialize the path variable with directory  where images are loctaed 
 run the cell to view the some patches of two images you can change the patches and image using their indices
 second cell is not used to create the dataset it is just to visualize the dataset which is going to be generated
-
+```
 
 --------- Third Cell ---------
+```
 Third cell is used to generate the dataset
 set in_path and out_path variable for each directory
 in_path = from where the program is going to read the images
